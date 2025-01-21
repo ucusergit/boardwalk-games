@@ -1,4 +1,7 @@
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+
 
 
 /* CSS Variables */
@@ -17,7 +20,9 @@ body {
     font-family: var(--primary-font);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
@@ -26,9 +31,20 @@ h1, h2, h3 {
     color: var(--highlight-color);
 }
 
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
 /* grid visualisation CSS for testing */
 
-/* .container, .row {
+/* .container,
+.row {
     border: 2px solid black;
 }
 
