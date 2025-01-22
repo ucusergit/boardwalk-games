@@ -60,11 +60,10 @@ h2 {
     border: 1px solid var(--highlight-color);
     background-color: var(--highlight-color);
     color: white;
-    width:fit-content;
     margin: 3px;
-    margin-left: 200px;
     padding: 3px 10px;
 }
+
 
 
 
@@ -186,12 +185,17 @@ h2 {
         min-height: 191px;
     }
 
-    #services .custom-bg-filled{
-        margin-left: 50px;
-        width: none;
+    .custom-bg-filled {
+        border: 1px solid var(--highlight-color);
+        background-color: var(--highlight-color);
+        color: white;
+        margin: 3px;
+        padding: 5px 80px;
     }
-
+     
 }
+
+
 
 
 /* Medium devices (tablets, 768px and up) */
@@ -201,17 +205,29 @@ h2 {
         min-height: 191px;
     }
 
-    #services .custom-bg-filled{
-        margin-left: 100px;
-        width: none;
+    .custom-bg-filled {
+        border: 1px solid var(--highlight-color);
+        background-color: var(--highlight-color);
+        color: white;
+        margin: 3px;
+        padding: 3px 10px;
     }
 }
+
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
+    }
+
+    .custom-bg-filled {
+        border: 1px solid var(--highlight-color);
+        background-color: var(--highlight-color);
+        color: white;
+        margin: 3px;
+        padding: 3px 10px;
     }
 }
 
@@ -221,6 +237,14 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+
+    .custom-bg-filled {
+        border: 1px solid var(--highlight-color);
+        background-color: var(--highlight-color);
+        color: white;
+        margin: 3px;
+        padding: 3px 10px;
+    }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -228,5 +252,13 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+
+    .custom-bg-filled {
+        border: 1px solid var(--highlight-color);
+        background-color: var(--highlight-color);
+        color: white;
+        margin: 3px;
+        padding: 3px 10px;
     }
 }
