@@ -163,6 +163,12 @@ h2 {
     background-color: none;
 }
 
+.res-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20rem;
+    margin-left: 20rem;
+  }
 
 /* grid visualisation CSS for testing */
 
