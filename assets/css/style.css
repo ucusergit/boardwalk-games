@@ -193,7 +193,7 @@ h2 {
 
 /* Media queries */
 
-/* Medium devices (tablets, 320px and up) */
+/* Medium devices (tablets, 576px and up) */
 @media screen and (min-width: 576px) {
 
     /* Make all service cards the same height for consistency */
@@ -201,17 +201,10 @@ h2 {
         min-height: 191px;
     }
 
-
     .custom-bg-filled {
         font-size: 1rem;
     }
-
-    .res-container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: 1px;
-        margin-left: 1px;
-    }
+    
 }
 
 
@@ -224,25 +217,6 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .res-container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: 20%;
-        margin-left: 20%;
-    }
 }
 
 
@@ -253,16 +227,6 @@ h2 {
     #services .card-body {
         min-height: auto;
     }
-
-
-
-
-    .res-container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: 20%;
-        margin-left: 20%;
-    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -272,17 +236,8 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
-
-
-
-
-.res-container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 20%;
-    margin-left: 20%;
 }
-}
+
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
@@ -291,23 +246,18 @@ h2 {
     #services .card-body {
         min-height: 195px;
     }
-
-    .custom-bg-filled {
-        border: 1px solid var(--highlight-color);
-        background-color: var(--highlight-color);
-        color: white;
-        margin: 3px;
-        padding: 3px 10px;
-    }
-
-    .res-container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: 20%;
-        margin-left: 20%;
-    }
-
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
