@@ -56,6 +56,18 @@ h2 {
     color: white;
 }
 
+.custom-bg-filled {
+    border: 1px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    width:fit-content;
+    margin: 3px;
+    margin-left: 200px;
+    padding: 3px 10px;
+}
+
+
+
 .custom-button-filled:hover {
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
@@ -144,6 +156,15 @@ h2 {
     background-color: transparent;
 }
 
+.hidden {
+    display: none;
+}
+
+.nobackground{
+    background-color: none;
+}
+
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -158,11 +179,31 @@ h2 {
 
 /* Media queries */
 
+/* Medium devices (tablets, 320px and up) */
+@media screen and (min-width: 320px) {
+    /* Make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+
+    #services .custom-bg-filled{
+        margin-left: 50px;
+        width: none;
+    }
+
+}
+
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
+    }
+
+    #services .custom-bg-filled{
+        margin-left: 100px;
+        width: none;
     }
 }
 
