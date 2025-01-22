@@ -166,9 +166,9 @@ h2 {
 .res-container {
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: 20rem;
-    margin-left: 20rem;
-  }
+    margin-right: 20%;
+    margin-left: 20%;
+}
 
 /* grid visualisation CSS for testing */
 
@@ -199,6 +199,12 @@ h2 {
         padding: 5px 80px;
     }
      
+    .res-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 1px;
+        margin-left: 1px;
+      }
 }
 
 
@@ -218,6 +224,13 @@ h2 {
         margin: 3px;
         padding: 3px 10px;
     }
+
+    .res-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
 }
 
 
@@ -235,6 +248,13 @@ h2 {
         margin: 3px;
         padding: 3px 10px;
     }
+
+    .res-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -251,6 +271,13 @@ h2 {
         margin: 3px;
         padding: 3px 10px;
     }
+
+    .res-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -266,5 +293,12 @@ h2 {
         color: white;
         margin: 3px;
         padding: 3px 10px;
+    }
+
+    .res-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 20%;
+        margin-left: 20%;
     }
 }
